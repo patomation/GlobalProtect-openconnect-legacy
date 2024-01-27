@@ -9,5 +9,6 @@ sudo apt-get install -y \
     qttools5-dev \
     qt5keychain-dev \
     openconnect \
+    wget \
 
 ./scripts/install.sh
