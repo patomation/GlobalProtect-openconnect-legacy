@@ -20,22 +20,6 @@ A GlobalProtect VPN client (GUI) for Linux based on Openconnect and built with Q
 
 ## Install
 
-|OS|Stable version | Development version|
-|---|--------------|--------------------|
-|Linux Mint, Ubuntu 18.04 or later|[ppa:yuezk/globalprotect-openconnect](https://launchpad.net/~yuezk/+archive/ubuntu/globalprotect-openconnect)|[ppa:yuezk/globalprotect-openconnect-snapshot](https://launchpad.net/~yuezk/+archive/ubuntu/globalprotect-openconnect-snapshot)|
-|Arch, Manjaro|[globalprotect-openconnect](https://archlinux.org/packages/community/x86_64/globalprotect-openconnect/)|[AUR: globalprotect-openconnect-git](https://aur.archlinux.org/packages/globalprotect-openconnect-git/)|
-|Fedora|[copr: yuezk/globalprotect-openconnect](https://copr.fedorainfracloud.org/coprs/yuezk/globalprotect-openconnect/)|[copr: yuezk/globalprotect-openconnect](https://copr.fedorainfracloud.org/coprs/yuezk/globalprotect-openconnect/)|
-|openSUSE, CentOS 8|[OBS: globalprotect-openconnect](https://build.opensuse.org/package/show/home:yuezk/globalprotect-openconnect)|[OBS: globalprotect-openconnect-snapshot](https://build.opensuse.org/package/show/home:yuezk/globalprotect-openconnect-snapshot)|
-
-Add the repository in the above table and install it with your favorite package manager tool.
-
-[![Arch package](https://repology.org/badge/version-for-repo/arch/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
-[![AUR package](https://repology.org/badge/version-for-repo/aur/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
-[![Manjaro Stable package](https://repology.org/badge/version-for-repo/manjaro_stable/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
-[![Manjaro Testing package](https://repology.org/badge/version-for-repo/manjaro_testing/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
-[![Manjaro Unstable package](https://repology.org/badge/version-for-repo/manjaro_unstable/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
-[![nixpkgs unstable package](https://repology.org/badge/version-for-repo/nix_unstable/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
-[![Parabola package](https://repology.org/badge/version-for-repo/parabola/globalprotect-openconnect.svg)](https://repology.org/project/globalprotect-openconnect/versions)
 
 ### Linux Mint, Ubuntu 18.04 or later
 
@@ -97,7 +81,7 @@ git clone https://github.com/yuezk/GlobalProtect-openconnect.git
 cd GlobalProtect-openconnect
 ```
 
-### MX Linux
+### Debian/MX Linux
 The following instructions are for **MX-21.2.1_x64 KDE**.
 
 ```sh
