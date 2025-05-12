@@ -18,67 +18,13 @@ A GlobalProtect VPN client (GUI) for Linux based on Openconnect and built with Q
 - Supports switching gateway from the system tray menu manually.
 
 
-## Install
-
-
-### Linux Mint, Ubuntu 18.04 or later
-
-```sh
-sudo add-apt-repository ppa:yuezk/globalprotect-openconnect
-sudo apt-get update
-sudo apt-get install globalprotect-openconnect
-```
-
-> For Linux Mint, you might need to import the GPG key with: `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7937C393082992E5D6E4A60453FC26B43838D761` if you encountered an error `gpg: keyserver receive failed: General error`.
-
-### Arch Linux / Manjaro
-
-```sh
-sudo pacman -S globalprotect-openconnect
-```
-
-### AUR snapshot version
-
-```sh
-yay -S globalprotect-openconnect-git
-```
-
-### Fedora
-
-```sh
-sudo dnf copr enable yuezk/globalprotect-openconnect
-sudo dnf install globalprotect-openconnect
-```
-
-### openSUSE
-
-- openSUSE Tumbleweed
-  ```sh
-  sudo zypper ar https://download.opensuse.org/repositories/home:/yuezk/openSUSE_Tumbleweed/home:yuezk.repo
-  sudo zypper ref
-  sudo zypper install globalprotect-openconnect
-  ```
-
-- openSUSE Leap
-
-  ```sh
-  sudo zypper ar https://download.opensuse.org/repositories/home:/yuezk/openSUSE_Leap_15.2/home:yuezk.repo
-  sudo zypper ref
-  sudo zypper install globalprotect-openconnect
-  ```
-### CentOS 8
-
-1. Add the repository: `https://download.opensuse.org/repositories/home:/yuezk/CentOS_8/home:yuezk.repo`
-1. Install `globalprotect-openconnect`
-
-
 ## Build & Install from source code
 
 Clone this repo with:
 
 ```sh
-git clone https://github.com/yuezk/GlobalProtect-openconnect.git
-cd GlobalProtect-openconnect
+git clone https://github.com/patomation/GlobalProtect-openconnect-legacy.git
+cd GlobalProtect-openconnect-legacy
 ```
 
 ### Debian/MX Linux
